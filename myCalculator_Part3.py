@@ -38,6 +38,8 @@ def calculate(operation, int1, int2):
         return int1 * int2
     elif operation == "/":
         return int1 / int2
+    elif operation == "^":
+        return int1 ^ int2
     else:
         raise Exception(f'Unsupported Operation: {operation}')
 
